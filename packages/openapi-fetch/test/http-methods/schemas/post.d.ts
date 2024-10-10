@@ -20,6 +20,7 @@ export interface paths {
                 path?: never;
                 cookie?: never;
             };
+            security?: never;
             requestBody: components["requestBodies"]["CreatePost"];
             responses: {
                 201: components["responses"]["CreatePost"];
@@ -48,6 +49,7 @@ export interface paths {
                 path?: never;
                 cookie?: never;
             };
+            security?: never;
             requestBody?: components["requestBodies"]["CreatePostOptional"];
             responses: {
                 201: components["responses"]["CreatePost"];
@@ -76,6 +78,7 @@ export interface paths {
                 path?: never;
                 cookie?: never;
             };
+            security?: never;
             requestBody?: {
                 content: {
                     "application/json": components["schemas"]["Post"];
@@ -108,6 +111,7 @@ export interface paths {
                 path?: never;
                 cookie?: never;
             };
+            security?: never;
             requestBody: {
                 content: {
                     "multipart/form-data": string;
@@ -192,6 +196,7 @@ export interface components {
     };
     headers: never;
     pathItems: never;
+    securitySchemes: never;
 }
 export type $defs = Record<string, never>;
 export type operations = Record<string, never>;

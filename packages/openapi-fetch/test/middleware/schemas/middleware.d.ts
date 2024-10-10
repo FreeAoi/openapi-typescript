@@ -22,6 +22,7 @@ export interface paths {
                 };
                 cookie?: never;
             };
+            security?: never;
             requestBody?: never;
             responses: {
                 /** @description OK */
@@ -71,6 +72,7 @@ export interface paths {
                 };
                 cookie?: never;
             };
+            security?: never;
             requestBody: {
                 content: {
                     "application/json": {
@@ -127,6 +129,7 @@ export interface components {
     requestBodies: never;
     headers: never;
     pathItems: never;
+    securitySchemes: never;
 }
 export type $defs = Record<string, never>;
 export type operations = Record<string, never>;
